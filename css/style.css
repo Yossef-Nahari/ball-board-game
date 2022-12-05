@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+table {
+    display: block;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+.counter,
+.Balls {
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+
+.modal {
+    height: 600px;
+    width: 800px;
+    background-image: linear-gradient(#005AA7, #FFFDE4);
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 0.9;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.x {
+    float: right;
+    margin-right: 40PX;
+    font-size: 20px;
+    background-color: inherit;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    padding-top: 100px;
+}
+
+.button {
+    left: 50%;
+    top: 50%;
+    height: 100px;
+    width: 300px;
+    background-color: whitesmoke;
+    font-size: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
